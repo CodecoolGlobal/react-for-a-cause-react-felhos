@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph";
 
 function About() {
   return (
-    <div>
+    <div class="about">
       <h1>About Us</h1>
       
       <Paragraph 
