@@ -1,0 +1,36 @@
+* {
+    color: #EEF2E6;
+}
+
+h1 {
+    color:#1b6441aa;
+    font-size: 5em;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+h3 {
+    z-index: 3;
+    font-size: 3em;
+}
+
+.about {
+    z-index: 0;
+    background: #3D8361;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+p {
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
