@@ -16,7 +16,7 @@
     backdrop-filter: blur(8px);
 }
 
-.hero > .btn-wrapper > div:hover {
+.btn-wrapper > div:hover {
     scale: 1.05;
     cursor: pointer;
 }
