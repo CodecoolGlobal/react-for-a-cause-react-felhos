@@ -1,0 +1,18 @@
+.grass-separator {
+    width: 100%;
+    position: relative;
+    top: 8px;
+}
+
+.donate-wrapper {
+    padding: 50px 100px 120px 100px;
+    background-color: #1C6758;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.donate-wrapper > p, h3 {
+    grid-column: 2;
+    grid-row: 1;
+}
