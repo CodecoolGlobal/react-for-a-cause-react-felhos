@@ -5,13 +5,17 @@ import "./css/Hero.css"
 
 export default function Hero() {
   return (
-    <div class="hero">
-        <img id="tiger" src={tiger}></img>
-        <div class="btn-wrapper">
-            <div>
-                <img id="btn-donate" src={donateButton}></img>
-            </div>
-        </div>
-    </div>
+    <>
+      <div class="hero">
+          <img id="tiger" src={tiger}></img>
+          <div class="btn-wrapper" >
+              <div>
+                  <img id="btn-donate" src={donateButton} onClick={_ => window.location.href="#donate"}></img>
+              </div>
+          </div>
+      </div>
+      <div className="separator">
+      </div>
+    </>
   )
 }

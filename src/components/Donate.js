@@ -4,9 +4,9 @@ import donateButton from "./../donateButton.svg"
 import grassSeparator from "./../grassSeparator.svg"
 import Paragraph from "./Paragraph"
 
-function Donate() {
+function Donate({id}) {
     return (
-        <div className="donate">
+        <div id={id} className="donate">
             <img className="grass-separator" alt="" src={grassSeparator}/>
             <div className="donate-wrapper">      
                 <div className="btn-wrapper">

@@ -24,7 +24,7 @@ function App() {
       <div class="container">
         {contentOptions[content]}
       </div>
-      {<Donate/>}
+      {<Donate id="donate"/>}
     </div>
   );
 }
