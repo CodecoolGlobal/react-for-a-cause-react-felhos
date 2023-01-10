@@ -1,7 +1,12 @@
+
 function HeaderLink(props) {
-    let link = `#${props.id}`
     let content = 
-        <a href={link}>{props.name}</a>;
+        <div onClick={()=>{
+            props.func(props.content);
+            console.log(props.content);
+        }}>
+            {props.name}
+        </div>;
     return content;
   }
   
