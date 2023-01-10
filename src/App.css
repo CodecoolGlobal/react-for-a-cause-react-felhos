@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Yeseva+One&display=swap');
+
 .App {
   text-align: center;
 }
@@ -45,11 +47,24 @@
   align-items: center;
 }
 
-.navbar a {
+.navbar {
+  display: flex;
+}
+
+.navbar div {
   text-decoration: none;
-  font-family: "Yeseva One";
+  font-family: 'Poppins', sans-serif;
   font-size: 19px;
   padding: 10px 15px;
   font-weight: 500;
   color: #F1F2F3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font: "Josefin Sans";
+}
+
+body h3, h1 {
+  font-family: 'Yeseva One', cursive;
 }
