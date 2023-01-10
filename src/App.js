@@ -13,7 +13,7 @@ function App() {
     contact: <Contact/>,
   };
 
-  const [content, setContent] = useState("about");
+  const [content, setContent] = useState("welcome");
 
   return (
     <div className="App">
