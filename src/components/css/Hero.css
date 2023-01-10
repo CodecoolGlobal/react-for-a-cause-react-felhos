@@ -1,0 +1,22 @@
+.hero > #tiger {
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+
+
+.hero > .btn-wrapper {
+    padding: 15px 15px 8px 70px;
+    position: fixed;
+    top: 35%;
+    left: 0;
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+.hero > .btn-wrapper > div:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
