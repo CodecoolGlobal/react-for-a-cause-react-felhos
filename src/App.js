@@ -1,7 +1,6 @@
 import logo from './logo.png';
 import { useState } from 'react';
 import Header from'./components/Header'
-import Content from'./components/Content'
 import About from'./components/About'
 import Welcome from'./components/Welcome'
 import Contact from'./components/Contact'
@@ -20,7 +19,7 @@ function App() {
     <div className="App">
       {<Header logo={logo} func={setContent}/>}
       <div class="container">
-        {<Content content={contentOptions[content]}/>}
+        {contentOptions[content]}
       </div>
     </div>
   );
