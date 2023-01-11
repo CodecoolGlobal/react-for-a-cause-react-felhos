@@ -15,19 +15,22 @@ h3 {
     z-index: 3;
     position: relative;
     font-size: 3em;
+    color: #D6CDA4;
 }
 
 .about {
-    z-index: 0;
+    padding: 105px 0px;
+    position: relative;;
+    z-index: 10;
     background: #3D8361;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 60%;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
+    min-height: 75vh;
 }
 
 p {

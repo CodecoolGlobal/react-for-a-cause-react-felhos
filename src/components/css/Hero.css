@@ -6,7 +6,6 @@
     width: 100vw;
 }
 
-
 .hero > .btn-wrapper {
     padding: 15px 15px 8px 70px;
     position: fixed;
@@ -14,9 +13,15 @@
     left: 0;
     color: white;
     backdrop-filter: blur(8px);
+    z-index: 9;
 }
 
 .btn-wrapper > div:hover {
     scale: 1.05;
     cursor: pointer;
+}
+
+.separator {
+    position: relative;
+    min-height: 705px;
 }
