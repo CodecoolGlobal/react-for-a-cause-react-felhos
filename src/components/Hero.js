@@ -7,14 +7,12 @@ export default function Hero() {
   return (
     <>
       <div className="hero">
-          <img id="tiger" src={tiger}></img>
-          <div className="btn-wrapper" >
+          <div id="tiger"></div>
+          <div class="btn-wrapper" >
               <div>
                   <img id="btn-donate" src={donateButton} onClick={_ => window.location.href="#donate"}></img>
               </div>
           </div>
-      </div>
-      <div className="separator">
       </div>
     </>
   )
