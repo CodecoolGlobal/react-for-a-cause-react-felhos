@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       {<Header logo={logo} func={setContent}/>}
       {<Hero/>}
-      <div class="container">
+      <div id="container" class="container">
         {contentOptions[content]}
       </div>
       {<Donate id="donate"/>}
