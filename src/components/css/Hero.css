@@ -3,7 +3,7 @@
     top: 0px;
     left: 0px;
      /* The image used */
-    background-image: url("./../../tiger.svg");
+    background-image: url("./../../assets/tiger.svg");
 
     min-height: 700px;
     /* Set a specific height */

@@ -1,6 +1,5 @@
 import React from 'react'
-import tiger from "./../tiger.svg"
-import donateButton from "./../donateButton.svg"
+import donateButton from "./../assets/donateButton.svg"
 import "./css/Hero.css"
 
 export default function Hero() {
