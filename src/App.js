@@ -35,7 +35,7 @@ function App() {
 
   const contentOptions = {
     about: <ContentPage mainTitle={"About"} paragraphs={aboutContent}/>,
-    welcome: <ContentPage mainTitle={"Welcome"} paragraphs={aboutContent}/>,
+    welcome: <ContentPage mainTitle={"Welcome"} paragraphs={welcomeContent}/>,
     contact: <Contact func={setContent}/>,
     thankYou: <ContentPage mainTitle={""} paragraphs={thankYouContent}/>,
   };
