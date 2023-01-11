@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+.donate-group {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 .donate-wrapper > p, h3 {
     grid-column: 2;
     grid-row: 1;
@@ -23,3 +28,30 @@
     z-index: 11;
     margin: 0;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cards > img {
+    height: 30px;
+}
+
+@media only screen and (max-width: 1120px) {
+   .donate-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+   }
+
+   .donate-wrapper > *{
+        margin-top: 1em;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .donate-wrapper {
+        padding: 0;
+    }
+ }

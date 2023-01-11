@@ -1,9 +1,17 @@
 .hero > #tiger {
-    position: fixed;
     z-index: -1;
     top: 0px;
     left: 0px;
-    width: 100vw;
+     /* The image used */
+    background-image: url("./../../tiger.svg");
+
+    min-height: 700px;
+    /* Set a specific height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* Create the parallax scrolling effect */
 }
 
 .hero > .btn-wrapper {
@@ -21,7 +29,9 @@
     cursor: pointer;
 }
 
-.separator {
-    position: relative;
-    min-height: 705px;
-}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        display: none;
+    }
+ }
