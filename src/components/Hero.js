@@ -6,9 +6,9 @@ import "./css/Hero.css"
 export default function Hero() {
   return (
     <>
-      <div class="hero">
+      <div className="hero">
           <img id="tiger" src={tiger}></img>
-          <div class="btn-wrapper" >
+          <div className="btn-wrapper" >
               <div>
                   <img id="btn-donate" src={donateButton} onClick={_ => window.location.href="#donate"}></img>
               </div>
