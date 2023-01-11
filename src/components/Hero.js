@@ -7,7 +7,7 @@ export default function Hero() {
     <>
       <div className="hero">
           <div id="tiger"></div>
-          <div class="btn-wrapper" >
+          <div className="btn-wrapper" >
               <div>
                   <img id="btn-donate" src={donateButton} onClick={_ => window.location.href="#donate"}></img>
               </div>
