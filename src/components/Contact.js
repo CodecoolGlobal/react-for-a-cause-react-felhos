@@ -27,6 +27,7 @@ function Contact(props) {
 
     return (
         <div className="form-wrapper">
+            <h3>Contact us!</h3>
             <form className="ContactForm" action="javascript:void(0);">
                 <div className="name-input">
                     <input ref={firstNameRef} id= "firstName" type="text" placeholder="first name"/>
