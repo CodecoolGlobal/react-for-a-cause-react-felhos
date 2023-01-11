@@ -7,21 +7,23 @@ import Contact from'./components/Contact'
 import Hero from'./components/Hero'
 import Donate from'./components/Donate'
 import './App.css';
+import ThankYou from './components/ThankYou';
 
 function App() {
+  const [content, setContent] = useState("welcome");
+
   const contentOptions = {
     about: <About/>,
     welcome: <Welcome/>,
-    contact: <Contact/>,
+    contact: <Contact func={setContent}/>,
+    thankYou: <ThankYou/>,
   };
-
-  const [content, setContent] = useState("welcome");
 
   return (
     <div className="App">
       {<Header logo={logo} func={setContent}/>}
       {<Hero/>}
-      <div id="container" class="container">
+      <div id="container" className="container">
         {contentOptions[content]}
       </div>
       {<Donate id="donate"/>}

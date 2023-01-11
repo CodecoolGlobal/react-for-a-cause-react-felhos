@@ -3,7 +3,7 @@ import Paragraph from "./Paragraph";
 
 function Welcome(props) {
     return (
-        <div class="about">
+        <div className="about">
           <h1>Welcome</h1>
     
           <Paragraph

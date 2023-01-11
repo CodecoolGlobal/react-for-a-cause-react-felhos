@@ -26,6 +26,8 @@
     background-color: #1C6758;
     position: relative;
     z-index: 11;
+    top: -300px;
+    color: #EEF2E6;
     margin: 0;
 }
 
@@ -55,3 +57,4 @@
         padding: 0;
     }
  }
+

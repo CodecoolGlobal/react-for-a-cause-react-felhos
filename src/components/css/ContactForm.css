@@ -1,8 +1,17 @@
 .ContactForm {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    z-index: 10;
+    border: solid 10px;
+    border-color: #1b6441;
+    background-color: #3D8361;
+    color: black;
 }
 
 .form-wrapper {
-    
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
 }

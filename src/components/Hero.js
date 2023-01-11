@@ -6,7 +6,7 @@ import "./css/Hero.css"
 export default function Hero() {
   return (
     <>
-      <div class="hero">
+      <div className="hero">
           <div id="tiger"></div>
           <div class="btn-wrapper" >
               <div>
