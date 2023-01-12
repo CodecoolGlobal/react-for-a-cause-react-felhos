@@ -1,5 +1,5 @@
 import HeaderLink from'./HeaderLink'
-import About from'./About'
+import ContentPage from'./ContentPage'
 
 function Header(props) {
 

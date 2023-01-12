@@ -11,7 +11,9 @@
 
 .form-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     height: 500px;
-
+    background-color: #3D8361;
 }

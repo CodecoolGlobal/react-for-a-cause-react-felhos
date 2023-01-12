@@ -1,6 +1,6 @@
 import React from 'react'
-import tiger from "./../tiger.svg"
-import donateButton from "./../donateButton.svg"
+import donateButton from "./../assets/donateButton.svg"
+import smallDonateButton from "./../assets/persuasiveTiger.png"
 import "./css/Hero.css"
 
 export default function Hero() {
@@ -8,9 +8,16 @@ export default function Hero() {
     <>
       <div className="hero">
           <div id="tiger"></div>
-          <div class="btn-wrapper" >
+          <div className="btn-wrapper" >
               <div>
                   <img id="btn-donate" src={donateButton} onClick={_ => window.location.href="#donate"}></img>
+              </div>
+          </div>
+      </div>
+      <div className="smallHero">
+          <div className="small-btn-wrapper" >
+              <div>
+                  <img id="small-btn-donate" src={smallDonateButton} onClick={_ => window.location.href="#donate"}></img>
               </div>
           </div>
       </div>

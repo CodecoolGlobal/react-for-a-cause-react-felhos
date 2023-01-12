@@ -1,12 +1,12 @@
 import "./css/Hero.css"
 import "./css/Donate.css"
-import donateButton from "./../donateButton.svg"
-import grassSeparator from "./../grassSeparator.svg"
+import donateButton from "./../assets/donateButton.svg"
+import grassSeparator from "./../assets/grassSeparator.svg"
 import Paragraph from "./Paragraph"
-import cardVisa from "./../card-visa.svg"
-import cardExpress from "./../card-american-express.svg"
-import cardDiscover from "./../card-discover.svg"
-import cardMaster from "./../card-master-card.svg"
+import cardVisa from "./../assets/card-visa.svg"
+import cardExpress from "./../assets/card-american-express.svg"
+import cardDiscover from "./../assets/card-discover.svg"
+import cardMaster from "./../assets/card-master-card.svg"
 
 function Donate({id}) {
     return (
