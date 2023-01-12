@@ -35,7 +35,7 @@ function Contact(props) {
                 </div>
                 <input ref={emailRef} id="email" type="text" placeholder="example@mail.com"/>
                 <input ref={subjectRef} id="subject" type="text" placeholder="subject"/>
-                <textarea ref={messageRef} id="messageText" name="Text1" cols="40" rows="5"></textarea>
+                <textarea ref={messageRef} id="messageText" placeholder="type your message here..." name="Text1" cols="40" rows="5"></textarea>
                 <button onClick={sendForm}>Send</button>
             </form>
         </div>

@@ -17,7 +17,7 @@ function Donate({id}) {
                 <div className="donate-group">
                     <div className="btn-wrapper">
                         <div>
-                            <img alt="" src={donateButton}/>
+                            <img onClick={_ => window.location.href = ("https://support.worldwildlife.org/site/SPageServer?pagename=main_onetime&s_src=AWE1700OQ18651A01638RX&utm_campaign=membership&utm_content=renew&utm_medium=print&utm_source=magazine")} alt="" src={donateButton}/>
                         </div>
                     </div>
                     <div className="cards">
