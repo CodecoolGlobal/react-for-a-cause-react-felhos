@@ -14,13 +14,6 @@ export default function Hero() {
               </div>
           </div>
       </div>
-      <div className="smallHero">
-          <div className="small-btn-wrapper" >
-              <div>
-                  <img id="small-btn-donate" src={smallDonateButton} onClick={_ => window.location.href="#donate"}></img>
-              </div>
-          </div>
-      </div>
     </>
   )
 }
