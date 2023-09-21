@@ -4,10 +4,20 @@ This was a project to make a website for a known NGO, for which we chose WWF. We
 
 ## How to view the project
 
-- Node.js is required to run the website
+### Prerequisites
+
+- Node.js installed
+
+### How to run the project  
 - Clone the repository
 - Install the dependencies
+```sh
+npm install
+```
 - Run the React server
+```sh
+npm run dev
+```
 
 ## About WWF
 
